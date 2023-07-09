@@ -1,0 +1,111 @@
+body {
+    margin: auto 80px auto 80px;
+    background-color: #454545;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Ysabeau Infant', sans-serif;
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 40px 30px 40px 30px;
+
+}
+
+
+.nav {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #E8AA42;
+    padding: 10px;
+    border: #454545 1px solid;
+    
+}
+
+.nav:hover {
+    border-radius: 10px;
+    border: #E8AA42 1px solid;
+}
+
+
+.first {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+
+h1 {
+    font-size: 40px;
+}
+
+
+.h2 {
+    font-size: 30px;
+}
+
+
+.bigger_text {
+    color: white;
+    font-size: 20px;
+    margin-top: 0px;
+}
+
+
+
+
+.name_cont {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+
+
+li {
+    margin-bottom: 10px;
+}
+
+.nobullet {
+    list-style-type: none;
+}
+
+
+.a {
+    color: black;
+}
+
+
+.text {
+    font-size: 19px;
+}
+
+
+.block {
+    background-color: #E8AA42;
+    padding: 30px;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer {
+    padding: 30px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+
+.rs_logo {
+    width: 100px;
+}
